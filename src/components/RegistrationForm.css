@@ -1,0 +1,91 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  width: 50%;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+  text-align: center;
+  color: #2575fc;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-btn {
+  background-color: #2575fc;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
